@@ -15,7 +15,7 @@ import meridianid.farizdotid.actdaerahindonesia.util.JsonParse;
 
 public class WilayahActivity extends AppCompatActivity {
 
-    private JsonParse jsonParse;
+    //private SsonParse jsonParse;
     private AutoCompleteTextView actvProvinsi, actvKabupaten, actvKecamatan, actvDesa;
 
     @Override
@@ -23,48 +23,48 @@ public class WilayahActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_wilayah);
 
-        jsonParse = new JsonParse(this);
+        //jsonParse = new SsonParse(this);
 
         actvProvinsi = (AutoCompleteTextView) findViewById(R.id.actvProvinsi);
         actvKabupaten = (AutoCompleteTextView) findViewById(R.id.actvKabupaten);
         actvKecamatan = (AutoCompleteTextView) findViewById(R.id.actvKecamatan);
         actvDesa = (AutoCompleteTextView) findViewById(R.id.actvDesa);
 
-        actvProvinsi.setAdapter(new SuggestionProvAdapter(this, actvProvinsi.getText().toString()));
-        actvProvinsi.setThreshold(1);
-        actvProvinsi.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
-                String namaProv = adapterView.getItemAtPosition(position).toString();
-                jsonParse.searchIdProv(namaProv);
-            }
-        });
-        actvKabupaten.setAdapter(new SuggestionKabAdapter(this, actvProvinsi.getText().toString(), actvKabupaten.getText().toString()));
-        actvKabupaten.setThreshold(1);
-        actvKabupaten.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
-                String namaKab = adapterView.getItemAtPosition(position).toString();
-                jsonParse.searchIdKab(namaKab);
-            }
-        });
-        actvKecamatan.setAdapter(new SuggestionKecAdapter(this, actvKabupaten.getText().toString(), actvKecamatan.getText().toString()));
-        actvKabupaten.setThreshold(1);
-        actvKabupaten.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
-                String namaKec = adapterView.getItemAtPosition(position).toString();
-                jsonParse.searchIdKec(namaKec);
-            }
-        });
-        actvDesa.setAdapter(new SuggestionDesaAdapter(this, actvKecamatan.getText().toString(), actvDesa.getText().toString()));
-        actvKabupaten.setThreshold(1);
-        actvKabupaten.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
-
-            }
-        });
+//        actvProvinsi.setAdapter(new SuggestionProviAdapter(WilayahActivity.this, actvProvinsi.getText().toString()));
+//        actvProvinsi.setThreshold(1);
+//        actvProvinsi.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+//            @Override
+//            public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
+//                String namaProv = adapterView.getItemAtPosition(position).toString();
+//                jsonParse.searchIdProv(namaProv);
+//            }
+//        });
+//        actvKabupaten.setAdapter(new SuggestionKabAdapter(this, actvProvinsi.getText().toString(), actvKabupaten.getText().toString()));
+//        actvKabupaten.setThreshold(1);
+//        actvKabupaten.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+//            @Override
+//            public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
+//                String namaKab = adapterView.getItemAtPosition(position).toString();
+//                jsonParse.searchIdKab(namaKab);
+//            }
+//        });
+//        actvKecamatan.setAdapter(new SuggestionKecAdapter(this, actvKabupaten.getText().toString(), actvKecamatan.getText().toString()));
+//        actvKabupaten.setThreshold(1);
+//        actvKabupaten.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+//            @Override
+//            public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
+//                String namaKec = adapterView.getItemAtPosition(position).toString();
+//                jsonParse.searchIdKec(namaKec);
+//            }
+//        });
+//        actvDesa.setAdapter(new SuggestionDesaAdapter(this, actvKecamatan.getText().toString(), actvDesa.getText().toString()));
+//        actvKabupaten.setThreshold(1);
+//        actvKabupaten.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+//            @Override
+//            public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
+//
+//            }
+//        });
 
     }
 }

@@ -6,4 +6,47 @@
     <string name="kecamatan">Kecamatan</string>
     <string name="desa">Desa</string>
 
+    <string name="nss">NSS</string>
+    <string name="nama">Nama</string>
+    <string name="alamat">Alamat</string>
+    <string name="notelp">No Telp</string>
+    <string name="nofax">No Fax</string>
+    <string name="email">Email</string>
+
+    <string name="add">Tambah</string>
+
+    <array name="provinsi">
+        <item name="banten">Banten</item>
+        <item name="jakarta">DKI Jakarta</item>
+        <item name="yogya">DI Yogyakarta</item>
+    </array>
+
+    <array name="kab_banten">
+        <item name="tangerang">Kab. Tangerang</item>
+        <item name="serang">Kab. Serang</item>
+        <item name="pandeglang">Kab. Pandeglang</item>
+        <item name="lebak">Kab. Lebak</item>
+        <item name="tangsel">Tangerang Selatan</item>
+        <item name="kota_tangerang">Tangerang</item>
+        <item name="kota_serang">Serang</item>
+        <item name="cilegon">Cilegon</item>
+    </array>
+
+    <array name="kab_jakarta">
+        <item name="pulauseribu">Kab. Kepulauan Seribu</item>
+        <item name="jakut">Jakarta Utara</item>
+        <item name="jaksel">Jakarta Timur</item>
+        <item name="jaksel">Jakarta Selatan</item>
+        <item name="jakpus">Jakarta Pusat</item>
+        <item name="jakbar">Jakarta Barat</item>
+    </array>
+
+    <array name="kab_yogya">
+        <item name="sleman">Kab. Sleman</item>
+        <item name="kulonprogo">Kab. Kulonprogo</item>
+        <item name="gunungkidul">Kab. Gunung Kidul</item>
+        <item name="bantul">Kab. Bantul</item>
+        <item name="yogya">Yogyakarta</item>
+    </array>
+
 </resources>
