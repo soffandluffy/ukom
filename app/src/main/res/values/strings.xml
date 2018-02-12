@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Profil Sekolah</string>
+
+    <string name="provinsi">Provinsi</string>
+    <string name="kabupaten">Kabupaten</string>
+    <string name="kecamatan">Kecamatan</string>
+    <string name="desa">Desa</string>
+
+</resources>

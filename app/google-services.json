@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "402976446921",
+    "firebase_url": "https://ukom-9cd67.firebaseio.com",
+    "project_id": "ukom-9cd67",
+    "storage_bucket": "ukom-9cd67.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402976446921:android:3aad1f17b93cd061",
+        "android_client_info": {
+          "package_name": "com.siswa_30.ukom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "402976446921-no1sjeoknd6peqoaqk2uaj5s37h264qc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.siswa_30.ukom",
+            "certificate_hash": "9b69bd53d620ab3e05fbfd2db8d9afda1036deee"
+          }
+        },
+        {
+          "client_id": "402976446921-j4sbbkh9hoq6sa95narkcf0j4suksvm1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeAIi_dkj0rvRyoU6TF1VhnlacpR5xxk4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "402976446921-j4sbbkh9hoq6sa95narkcf0j4suksvm1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402976446921:android:edb252b5090b10a5",
+        "android_client_info": {
+          "package_name": "com.windows10.ukom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "402976446921-h148tif713f3rgcl1fdidr9dh134q4i8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.windows10.ukom",
+            "certificate_hash": "fbdd64ca2570bceb581c9accc6a1cdf4540e4fed"
+          }
+        },
+        {
+          "client_id": "402976446921-j4sbbkh9hoq6sa95narkcf0j4suksvm1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeAIi_dkj0rvRyoU6TF1VhnlacpR5xxk4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "402976446921-j4sbbkh9hoq6sa95narkcf0j4suksvm1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
